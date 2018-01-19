@@ -8,18 +8,10 @@ def rps
   cp = o.sample
   if (c === cp)
     puts 'tie'
-  elsif (c === "r" && cp === "p")
-    puts 'Comp Wins'
-  elsif (c === "r" && cp === "s")
+  elsif (c === "r" && cp === "p" || c === "s" && cp === "r" || c === "p" && cp === "s")
+    puts 'You Lose'
+  elsif (c === "r" && cp === "s" || c === "p" && cp === "r" || c === "s" && cp === "p")
     puts 'You win'
-  elsif (c === "s" && cp === "r")
-    puts "You lose"
-  elsif (c === "s" && cp === "p")
-    puts "You win"
-  elsif (c === "p" && cp === "r")
-    puts "You lose"
-  elsif (c === "p" && cp === "s")
-    puts "You win"
   end
 end
 
