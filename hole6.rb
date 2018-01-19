@@ -4,8 +4,8 @@
 require 'pry'
 
 def string_counter
-  str = STDIN.gets.strip.to_s
+  s = STDIN.gets.strip.to_s
   ss = STDIN.gets.strip.to_s
-  puts str.scan(/(?=#{ss})/).count
+  puts s.scan(/(?=#{ss})/).count
 end
 string_counter
