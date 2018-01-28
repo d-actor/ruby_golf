@@ -3,16 +3,10 @@
 require "pry"
 
 def mixed_pairs
-  mix = []
-  a = STDIN.gets.strip
-  loop do
-    if (a.length > 0)
-      mix << a.gsub(" ", "").split("").take(2)
-      a.gsub(" ", "").split("").delete_at(0)
-    else
-      break
-    end
-  end
-  binding.pry
+  a = []
+  str = STDIN.gets.strip.gsub(" ", "").split("")
+  str.each do |l|
+    binding.pry
+  end 
 end
 mixed_pairs
