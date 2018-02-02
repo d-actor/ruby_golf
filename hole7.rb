@@ -6,7 +6,7 @@ def mixed_pairs
   a = []
   str = STDIN.gets.strip.gsub(" ", "").split("")
   str.each do |l|
-    binding.pry
+    
   end 
 end
 mixed_pairs
