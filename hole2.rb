@@ -5,12 +5,12 @@ def rps
   puts "enter r, p, or s"
   o = ["r", "p", "s"]
   c = STDIN.gets.strip
-  cp = o.sample
-  if (c === cp)
+  d = o.sample
+  if (c === d)
     puts 'tie'
-  elsif (c === "r" && cp === "p" || c === "s" && cp === "r" || c === "p" && cp === "s")
+  elsif (c === "r" && d === "p" || c === "s" && d === "r" || c === "p" && d === "s")
     puts 'You Lose'
-  elsif (c === "r" && cp === "s" || c === "p" && cp === "r" || c === "s" && cp === "p")
+  elsif (c === "r" && d === "s" || c === "p" && d === "r" || c === "s" && d === "p")
     puts 'You win'
   end
 end
