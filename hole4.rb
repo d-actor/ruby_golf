@@ -1,8 +1,8 @@
 # takes in a number and a max value then finds all multiples of the number up to the max value.
 
 def multiples
-  n = STDIN.gets.strip.to_i
-  m = STDIN.gets.strip.to_i
+  n = gets.strip.to_i
+  m = gets.strip.to_i
   loop do
     if (m > 0)
     puts n * m

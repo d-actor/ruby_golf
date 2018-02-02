@@ -4,7 +4,7 @@
 def rps
   puts "enter r, p, or s"
   o = ["r", "p", "s"]
-  c = STDIN.gets.strip
+  c = gets.strip
   d = o.sample
   if (c === d)
     puts 'tie'

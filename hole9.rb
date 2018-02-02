@@ -5,7 +5,7 @@ require 'pry'
 def shopping_list
   x = 1
   s = []
-  i = STDIN.gets.strip.split(" ").uniq.sort
+  i = gets.strip.split(" ").uniq.sort
   i.each do |l|
     s << Hash[x, l]
     x += 1

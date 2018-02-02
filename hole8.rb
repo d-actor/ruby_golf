@@ -4,8 +4,8 @@
 
 def love_test
   t = 0
-  s = STDIN.gets.strip.gsub(" ", "")
-  y = STDIN.gets.strip.gsub(" ", "")
+  s = gets.strip.gsub(" ", "")
+  y = gets.strip.gsub(" ", "")
   x = s.length + y.length
   s.split('').each { |c| y.split('').include?(c) ? t += 1 : nil }
   l = x / t
