@@ -16,5 +16,3 @@ def rps
 end
 
 rps
-
-163

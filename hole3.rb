@@ -10,5 +10,3 @@ def fizzbuzz
   end
 end
 fizzbuzz
-
-74

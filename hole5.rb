@@ -9,5 +9,3 @@ def cipher
   puts e
 end
 cipher
-
-114

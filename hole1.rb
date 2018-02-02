@@ -9,5 +9,3 @@ def sum_array
 end
 
 sum_array
-
-45

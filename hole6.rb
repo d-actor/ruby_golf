@@ -7,5 +7,3 @@ def string_counter
   puts s.scan(/(?=#{x})/).count
 end
 string_counter
-
-58
