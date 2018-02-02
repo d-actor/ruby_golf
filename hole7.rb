@@ -1,5 +1,3 @@
-require "pry"
-
 def mixed_pairs
   a = [['a', 'b'], ['c', 'd']]
   m1 = []
