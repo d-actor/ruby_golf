@@ -3,9 +3,11 @@
 
 def cipher
   s = gets.strip.downcase.gsub(" ", "")
-  o = gets.strip.to_i
+  o = gets.strip.to_i 
   a = Array("a".."z")
-  e = s.chars.map { |char| a[a.index(char) + o - a.length] }.join
+  e = s.chars.map { |x| a[a.index(x) + o - a.length] }.join
   puts e
 end
 cipher
+
+114

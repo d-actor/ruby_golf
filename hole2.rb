@@ -8,7 +8,7 @@ def rps
   d = o.sample
   if (c === d)
     puts 'tie'
-  elsif (c === "r" && d === "p" || c === "s" && d === "r" || c === "p" && d === "s")
+  elsif (c === "r" && d === "p" || c === "s" && d === "r" || c === "p" && d === "s") 
     puts 'You Lose'
   elsif (c === "r" && d === "s" || c === "p" && d === "r" || c === "s" && d === "p")
     puts 'You win'
@@ -16,3 +16,5 @@ def rps
 end
 
 rps
+
+163

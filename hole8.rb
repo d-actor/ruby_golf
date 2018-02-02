@@ -12,3 +12,5 @@ def love_test
   puts l
 end
 love_test
+
+128

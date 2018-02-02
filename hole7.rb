@@ -12,3 +12,5 @@ def mixed_pairs
   print m
 end
 mixed_pairs
+
+68
