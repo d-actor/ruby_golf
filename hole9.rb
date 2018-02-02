@@ -4,12 +4,12 @@ require 'pry'
 
 def shopping_list
   x = 1
-  shop = []
-  list = STDIN.gets.strip.split(" ").uniq.sort
-  list.each do |l|
-    shop << Hash[x, l]
+  s = []
+  i = STDIN.gets.strip.split(" ").uniq.sort
+  i.each do |l|
+    s << Hash[x, l]
     x += 1
   end
-  print shop
+  print s
 end
 shopping_list
