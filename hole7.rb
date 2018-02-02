@@ -1,14 +1,14 @@
 def mixed_pairs
   a = [['a', 'b'], ['c', 'd']]
-  m1 = []
-  m2 = []
+  n = []
+  o = []
   m = []
   a.each do |i|
-    m1 << i[0]
-    m2 << i[1]
+    n << i[0]
+    o << i[1]
   end
-  m << m1
-  m << m2
+  m << n
+  m << o
   print m
 end
 mixed_pairs
