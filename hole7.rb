@@ -1,14 +1,8 @@
-def mixed_pairs
-  a = [['a', 'b'], ['c', 'd']]
-  n = []
-  o = []
+def mixed(a)
+  c = a.length
+  x = a.flatten.shuffle
   m = []
-  a.each do |i|
-    n << i[0]
-    o << i[1]
-  end
-  m << n
-  m << o
-  print m
+  c.times { m << x.pop(2) }
+  m
 end
 mixed_pairs
