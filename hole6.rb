@@ -7,5 +7,3 @@ end
 
 string_counter("Super String", "String")
 
-#29 char
-

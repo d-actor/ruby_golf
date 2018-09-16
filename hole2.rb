@@ -16,4 +16,3 @@ end
 
 rps("r")
 
-#95 char

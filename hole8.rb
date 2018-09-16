@@ -14,5 +14,3 @@ end
 
 love_test("doggo gogo", "go")
 
-#119 char
-

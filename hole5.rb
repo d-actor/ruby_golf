@@ -9,4 +9,3 @@ end
 
 cipher("sfd", 3)
 
-#69 char

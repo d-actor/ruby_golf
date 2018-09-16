@@ -8,5 +8,3 @@ end
 
 sum_array([1, 2, 3])
 
-#21 char
-

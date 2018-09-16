@@ -7,4 +7,3 @@ end
 
 fizzbuzz((1..100))
 
-#40 char

@@ -8,5 +8,3 @@ end
 
 mixed([["a", "b"], ["c", "d"]])
 
-#56 char
-

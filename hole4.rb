@@ -8,4 +8,3 @@ end
 
 multiples(3, 4)
 
-#36 char
