@@ -13,3 +13,5 @@ end
 
 shopping_list
 
+#55 char
+

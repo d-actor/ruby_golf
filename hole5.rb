@@ -8,3 +8,5 @@ def cipher(s, o)
 end
 
 cipher("sfd", 3)
+
+#69 char
