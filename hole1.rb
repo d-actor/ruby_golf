@@ -1,11 +1,10 @@
 #sum an array
 
-def sum_array
-  a = gets.strip.split("")
-  puts "#{a}"
+def sum_array(a)
   s = 0
-  a.each { |n| s += n.to_i }
+  a.each { |n| s += n }
   puts s
 end
 
-sum_array
+sum_array([1, 2, 3])
+

@@ -3,6 +3,8 @@ def mixed(a)
   x = a.flatten.shuffle
   m = []
   c.times { m << x.pop(2) }
-  m
+  puts m
 end
-mixed_pairs
+
+mixed([["a", "b"], ["c", "d"]])
+

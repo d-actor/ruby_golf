@@ -1,4 +1,4 @@
-# Takes in a list of strings. Program sorts the list non case sensitive 
+# Takes in a list of strings. Program sorts the list non case sensitive
 # Removes duplicates and returns as hash using position in the list as priority.
 def shopping_list
   x = 1
@@ -10,4 +10,6 @@ def shopping_list
   end
   print s
 end
+
 shopping_list
+

@@ -1,9 +1,9 @@
-# Given a string and a sub string count the number of times the substring occurs in the string  
+# Given a string and a sub string count the number of times the substring occurs in the string
 # print the number to the console.
 
-def string_counter
-  s = gets.strip.to_s
-  x = gets.strip.to_s
+def string_counter(s, x)
   puts s.scan(/(?=#{x})/).count
 end
-string_counter
+
+string_counter("Super String", "String")
+

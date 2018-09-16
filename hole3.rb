@@ -1,12 +1,9 @@
 #fizzbuzz
+require 'pry'
 
-def fizzbuzz
-  (1..100).each do |n| 
-    if (n % 15 === 0) then puts 'fizzbuzz' 
-    elsif (n % 3 === 0) then puts 'fizz' 
-    elsif (n % 5 === 0) then puts 'buzz' 
-    else puts n
-    end
-  end
+def fizzbuzz(n)
+  n.each { |n| n % 15 == 0 ? puts("fizzbuzz") : n % 3 == 0 ? puts('fizz') : n % 5 == 0 ? puts('buzz') : puts(n) }
 end
-fizzbuzz
+
+fizzbuzz((1..100))
+
